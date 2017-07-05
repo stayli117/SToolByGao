@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_exception_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/stool_color_background"
+    >
+    <include layout="@layout/stool_toolbar_view"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stool_y0"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/stool_x5"
+            >
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/btn_del_all_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/stool_x5"
+        android:background="@drawable/stool_button_resend"
+        android:text="@string/stool_exception_del_all"
+        android:textColor="@color/stool_text_white"
+        android:textSize="@dimen/stool_text14" />
+</LinearLayout>

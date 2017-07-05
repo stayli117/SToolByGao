@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- solid 设置stroke设置的边框以内的颜色 -->
+    <solid android:color="@color/stool_color_background"/>
+    <!-- stroke主要设置组件的边框。width为边框宽度，color为边框颜色 -->
+    <stroke android:width="@dimen/stool_x3" android:color="@color/stool_bg_white" />
+    <!-- corners 设置边框四角弧度 -->
+    <corners android:radius="@dimen/stool_x10"/>
+    <!-- padding主要设置组件里内容距离组件内边框的间距 -->
+    <padding android:left="@dimen/stool_x3" android:top="@dimen/stool_x3" android:right="@dimen/stool_x3" android:bottom="@dimen/stool_x3"/>
+
+</shape>

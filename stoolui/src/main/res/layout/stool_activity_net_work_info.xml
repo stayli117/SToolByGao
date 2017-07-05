@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+
+              android:id="@+id/activity_net_work_info"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/stool_color_background"
+              android:orientation="vertical"
+             >
+
+    <include layout="@layout/stool_toolbar_view"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/stool_x5"
+        android:layout_marginRight="@dimen/stool_x5"
+        android:layout_marginTop="@dimen/stool_y6"
+        android:divider="@null">
+
+    </ListView>
+</LinearLayout>

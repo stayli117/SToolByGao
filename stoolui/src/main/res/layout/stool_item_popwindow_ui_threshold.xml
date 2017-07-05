@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_ui_threshold_item"
+    android:layout_width="@dimen/stool_x80"
+    android:layout_height="@dimen/stool_y40"
+    android:background="@color/stool_bg_white"
+    android:gravity="center"
+    android:textColor="@color/stool_text_black"
+    android:textSize="@dimen/stool_text14"/>

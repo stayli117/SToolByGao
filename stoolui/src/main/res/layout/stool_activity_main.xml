@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/stool_color_toolbar"
+              android:orientation="vertical">
+
+    <include layout="@layout/stool_toolbar_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stool_y0"
+        android:layout_marginLeft="@dimen/stool_x10"
+        android:layout_marginRight="@dimen/stool_x10"
+        android:layout_marginTop="@dimen/stool_y10"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/stool_x5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <!--基本信息-->
+            <LinearLayout
+                android:id="@+id/llayout_baseinfo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stool_y0"
+                android:layout_marginBottom="@dimen/stool_y10"
+                android:layout_weight="1"
+                android:background="@color/stool_bg_white"
+                >
+
+                <ImageView
+                    android:layout_width="@dimen/stool_x0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseinfo"/>
+
+                <TextView
+                    android:layout_width="@dimen/stool_x0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/stool_base_info"
+                    android:textColor="@color/stool_text_black"
+                    android:textSize="@dimen/stool_text16"/>
+            </LinearLayout>
+            <!--异常信息-->
+            <RelativeLayout
+                android:id="@+id/rlayout_exception_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stool_y0"
+                android:layout_marginBottom="@dimen/stool_y10"
+                android:layout_weight="2"
+                android:background="@color/stool_bg_white"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="@dimen/stool_x100"
+                    android:layout_height="@dimen/stool_y120"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_exception"
+                        android:layout_width="@dimen/stool_x100"
+                        android:layout_height="@dimen/stool_y100"
+                        android:src="@drawable/ic_exception"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/stool_y20"
+                        android:layout_below="@id/image_exception"
+                        android:gravity="center"
+                        android:text="@string/stool_exception_info"
+                        android:textColor="@color/stool_color_black"
+                        android:textSize="@dimen/stool_text16"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <!--电量-->
+            <LinearLayout
+                android:id="@+id/llayout_electric"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stool_y0"
+                android:layout_weight="1"
+                android:background="@color/stool_bg_white">
+
+                <ImageView
+                    android:layout_width="@dimen/stool_x0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_electric"/>
+
+                <TextView
+                    android:layout_width="@dimen/stool_x0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/stool_electric_info"
+                    android:textColor="@color/stool_text_black"
+                    android:textSize="@dimen/stool_text16"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/stool_x5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <!--网络请求-->
+            <RelativeLayout
+                android:id="@+id/rlayout_network_request"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stool_y0"
+                android:layout_marginBottom="@dimen/stool_y10"
+                android:layout_weight="1"
+                android:background="@color/stool_bg_white"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="@dimen/stool_x100"
+                    android:layout_height="@dimen/stool_y120"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_network"
+                        android:layout_width="@dimen/stool_x100"
+                        android:layout_height="@dimen/stool_y100"
+                        android:src="@drawable/ic_network"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/stool_y20"
+                        android:layout_below="@id/image_network"
+                        android:gravity="center"
+                        android:text="@string/stool_network_request"
+                        android:textColor="@color/stool_text_black"
+                        android:textSize="@dimen/stool_text16"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <!--UI交互-->
+            <RelativeLayout
+                android:id="@+id/rlayout_ui"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stool_y0"
+                android:layout_weight="1"
+                android:background="@color/stool_bg_white"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="@dimen/stool_x100"
+                    android:layout_height="@dimen/stool_y120"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_ui"
+                        android:layout_width="@dimen/stool_x100"
+                        android:layout_height="@dimen/stool_y100"
+                        android:src="@drawable/ic_ui"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/stool_y20"
+                        android:layout_below="@id/image_ui"
+                        android:gravity="center"
+                        android:text="@string/stool_ui"
+                        android:textColor="@color/stool_text_black"
+                        android:textSize="@dimen/stool_text16"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--CUP&内存-->
+    <LinearLayout
+        android:id="@+id/llayout_cpu_memory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stool_y0"
+        android:layout_marginBottom="@dimen/stool_y10"
+        android:layout_marginLeft="@dimen/stool_x10"
+        android:layout_marginRight="@dimen/stool_x10"
+        android:layout_marginTop="@dimen/stool_y10"
+        android:layout_weight="1"
+        android:background="@color/stool_bg_white">
+
+        <ImageView
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_memory"/>
+
+        <TextView
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/stool_cpu_memory"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text16"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stool_x5"
+        android:text="@string/stool_version"
+        android:textColor="@color/stool_bg_white"
+        android:textSize="@dimen/stool_text8"/>
+
+</LinearLayout>

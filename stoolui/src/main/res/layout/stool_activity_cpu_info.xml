@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/activity_cpu_info"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="wrap_content">
+    <include layout="@layout/stool_toolbar_view"/>
+
+
+
+
+    <TextView
+            android:id="@+id/txt_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stool_x50"
+            android:text="招商宝"
+            android:drawablePadding="@dimen/stool_x30"
+            android:gravity="center_vertical"
+            android:layout_margin="@dimen/stool_x5"
+            android:background="@drawable/stool_bg_cup_info"
+            />
+
+
+    <LinearLayout
+
+            android:padding="@dimen/stool_x5"
+            android:layout_margin="@dimen/stool_x5"
+            android:background="@drawable/stool_bg_cup_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stool_y100">
+
+
+    <net.people.stoolui.modules.cpu.PercentLemon
+            android:id="@+id/percent_used"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:text="@string/stool_usage_info"
+            android:gravity="center"
+            android:layout_weight="1"
+            app:stool_CenterTextColor="@color/stool_bg_white"
+            app:stool_HeartColor="@color/stool_color_toolbar"
+            app:stool_SkinStartColor="@color/stool_text_green_259B24"
+            app:stool_SkinEndColor="@android:color/holo_red_light"
+
+            />
+
+        <LinearLayout
+                android:layout_width="@dimen/stool_x0"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+            <TextView
+                    android:id="@+id/txt_total_memory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="总内存:xxx"
+                    />
+            <TextView
+                    android:id="@+id/txt_used_memory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="已使用：xxx"
+                    />
+            <TextView
+                    android:id="@+id/txt_unused_memory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="未使用：xxxx"
+                    />
+            <TextView
+                    android:id="@+id/txt_percent_used_and_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="已使用占比：xxxx"
+                    />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:layout_margin="@dimen/stool_x5"
+            android:background="@drawable/stool_bg_cup_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stool_y100"
+            android:orientation="horizontal"
+            android:padding="@dimen/stool_x5"
+            >
+
+    <net.people.stoolui.modules.cpu.PercentLemon
+            android:id="@+id/percent_app_used"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            app:stool_CenterTextColor="@color/stool_bg_white"
+            app:stool_HeartColor="@color/stool_color_toolbar"
+            app:stool_SkinStartColor="@color/stool_text_green_259B24"
+            app:stool_SkinEndColor="@android:color/holo_red_light"
+            />
+        <LinearLayout
+                android:layout_width="@dimen/stool_x0"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+        <TextView
+                android:id="@+id/txt_app_memory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="app所占内存：xxxx"
+                />
+
+        <TextView
+                android:id="@+id/txt_app_memory_percent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="app所占内存：xxxx"
+                />
+
+
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

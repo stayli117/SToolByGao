@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_uiinfo"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/stool_color_background"
+              android:orientation="vertical"
+             >
+
+    <include layout="@layout/stool_toolbar_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stool_y40"
+        android:layout_marginLeft="@dimen/stool_x10"
+        android:layout_marginRight="@dimen/stool_x10"
+        android:layout_marginTop="@dimen/stool_y10"
+        android:background="@drawable/stool_bg_ui_info_item"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/stool_x30"
+            android:layout_marginRight="@dimen/stool_x10"
+            android:gravity="center"
+            android:paddingLeft="@dimen/stool_x10"
+            android:text="@string/stool_ui_loading_threshold"
+            android:textColor="@color/stool_bg_red_E51C23"
+            android:textSize="@dimen/stool_text13"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/text_ui_loading_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/stool_x30"
+            android:gravity="center"
+            android:paddingRight="@dimen/stool_x10"
+            android:textColor="@color/stool_bg_red_E51C23"
+            android:textSize="@dimen/stool_text16"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/stool_y3">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

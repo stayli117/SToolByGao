@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SToolByGao.iml" filepath="$PROJECT_DIR$/SToolByGao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowflakelib/snowflakelib.iml" filepath="$PROJECT_DIR$/snowflakelib/snowflakelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stoolui/stoolui.iml" filepath="$PROJECT_DIR$/stoolui/stoolui.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/stool_bg_popwindow"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/stool_bg_white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/stool_y10"
+        android:text="@string/stool_ui_choose_loading_threshold"
+        android:textColor="@color/stool_text_blue_0099ff"
+        android:textSize="@dimen/stool_text16"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_ui_threshold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

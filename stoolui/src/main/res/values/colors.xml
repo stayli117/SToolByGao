@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="stool_bg_black_414049">#e6414049</color>
+    <color name="stool_bg_light_black">#494440</color>
+    <color name="stool_bg_red_E51C23">#E51C23</color>
+    <color name="stool_bg_white">#ffffff</color>
+    <color name="stool_border_blue_4fa5d5">#4fa5d5</color>
+    <color name="stool_colorAccent">#3F51B5</color>
+    <color name="stool_colorPrimary">#414049</color>
+    <color name="stool_colorPrimaryDark">#000000</color>
+    <color name="stool_color_background">#F0F0F2</color>
+    <color name="stool_color_black">#000000</color>
+    <color name="stool_color_dark_toolbar">#006192</color>
+    <color name="stool_color_toolbar">#008cd1</color>
+    <color name="stool_text_black">#2F2F2F</color>
+    <color name="stool_text_blue_0099ff">#0099ff</color>
+    <color name="stool_text_gray_555555">#555555</color>
+    <color name="stool_text_green_259B24">#259B24</color>
+    <color name="stool_text_red_E51C23">#E51C23</color>
+    <color name="stool_text_white">#ffffff</color>
+    <color name="stool_transparent">#00000000</color>
+</resources>

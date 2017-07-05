@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/stool_y5"
+              android:layout_marginLeft="@dimen/stool_x5"
+              android:layout_marginRight="@dimen/stool_x5"
+              android:background="@drawable/stool_bg_ui_info_item"
+              android:orientation="vertical"
+              android:padding="@dimen/stool_x5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stool_ui_page"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+
+        <TextView
+            android:id="@+id/text_ui_page"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/stool_text_blue_0099ff"
+            android:textSize="@dimen/stool_text12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stool_ui_start_time"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+
+        <TextView
+            android:id="@+id/text_ui_start_time"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stool_ui_end_time"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+
+        <TextView
+            android:id="@+id/text_ui_end_time"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stool_ui_time_use"
+            android:textColor="@color/stool_text_black"
+            android:textSize="@dimen/stool_text12"/>
+
+        <TextView
+            android:id="@+id/text_ui_time_use"
+            android:layout_width="@dimen/stool_x0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/stool_text_green_259B24"
+            android:textSize="@dimen/stool_text12"/>
+    </LinearLayout>
+
+</LinearLayout>

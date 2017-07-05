@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StoolPercentLemon">
+        <attr name="stool_HeartColor" format="color"/>
+        <attr name="stool_HeartClickedColor" format="color"/>
+        <attr name="stool_SkinStartColor" format="color"/>
+        <attr name="stool_SkinEndColor" format="color"/>
+        <attr name="stool_SkinDepth" format="integer"/>
+        <attr name="stool_Percent" format="float"/>
+        <attr name="stool_Duration" format="integer"/>
+        <attr name="stool_CenterTextColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="stool_base_info">
+        <attr name="stool_label_base_info_text" format="string"/>
+        <attr name="stool_base_info_text" format="string"/>
+    </declare-styleable>
+</resources>
